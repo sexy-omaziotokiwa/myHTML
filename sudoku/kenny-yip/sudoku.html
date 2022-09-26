@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0 user-scalable=no">
+        <title>Sudoku</title>
+
+        <link rel="stylesheet" href="sudoku.css">
+        <script src="sudoku.js"></script>
+
+    </head>
+
+    <body>
+        <input type="text" id="keyboard-input" readonly>
+        <h1>Sudoku</h1>
+        <hr>
+        <h2 id="errors">Errors: 0</h2>
+        <!-- 9x9 board -->
+        <div id="board"></div>
+        <br>
+        <div id="digits"></div>
+        <button id="click-btn">Click</button>
+
+        <!-- alternative of javascript, using python instead-->
+        <!-- {% for i in range(5) %}
+        <div class="cls{{ i+1 }}">
+        {% endfor %} -->
+    </body>
+</html>

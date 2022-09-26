@@ -1,0 +1,224 @@
+{% extends 'template.html' %} {% block body %}
+
+
+<body onload='act("Home")'>{% endblock body %} {% block content %}
+
+    <script>
+   var selectedOption  = "";
+        function showDiv() {
+           
+            if (document.getElementById('try').style.display == "none"){
+document.getElementById('try').style.display = "block";
+document.getElementById('texto').innerHTML = "Please Select the level first then start with the game!!!";
+
+ document.getElementById('levelstatus').innerHTML = "LEVEL : " + selectedOption.toUpperCase();
+     console.log(selectedOption);
+
+}
+else{
+    selectedOption  = $("input:radio[name=radio]:checked").val();
+document.getElementById('try').style.display = "none";
+document.getElementById('texto').innerHTML = "";
+document.getElementById('levelstatus').innerHTML = "LEVEL : " + selectedOption.toUpperCase();
+
+
+}
+}
+
+    </script>
+  
+
+    <div class="outputs">
+        <div id="tcon" style="text-align: center;"><span>Time: </span><span id="time">00:00:00</span></div>
+        <div id="levelcss" style="text-align: center;"><p id = "levelstatus"> LEVEL : Select Level</p></div>
+        <div id="game-grid">
+            <div id="table">
+                <table>
+
+                    <tbody>
+                        <tr>
+                            <td class="nav">
+                                </td/>
+                                <th class="nav">1</th>
+                                <th class="nav">2</th>
+                                <th class="nav">3</th>
+                                <th class="nav">4</th>
+                                <th class="nav">5</th>
+                                <th class="nav">6</th>
+                                <th class="nav">7</th>
+                                <th class="nav">8</th>
+                                <th class="nav">9</th>
+                        </tr>
+                        <tr id="row1">
+                            <th class="nav">A</th>
+                            <td id="cell-A1"><input id="cell_A1" class="Input row1 col1 grid1" autocomplete="off"></td>
+                            <td id="cell-A2"><input id="cell_A2" class="Input row1 col2 grid1" autocomplete="off"></td>
+                            <td id="cell-A3"><input id="cell_A3" class="Input row1 col3 grid1" autocomplete="off"></td>
+                            <td id="cell-A4"><input id="cell_A4" class="Input row1 col4 grid2" autocomplete="off"></td>
+                            <td id="cell-A5"><input id="cell_A5" class="Input row1 col5 grid2" autocomplete="off"></td>
+                            <td id="cell-A6"><input id="cell_A6" class="Input row1 col6 grid2" autocomplete="off"></td>
+                            <td id="cell-A7"><input id="cell_A7" class="Input row1 col7 grid3" autocomplete="off"></td>
+                            <td id="cell-A8"><input id="cell_A8" class="Input row1 col8 grid3" autocomplete="off"></td>
+                            <td id="cell-A9"><input id="cell_A9" class="Input row1 col9 grid3" autocomplete="off"></td>
+
+
+                        </tr>
+
+                        <tr id="row2">
+                            <th class="nav">B</th>
+
+                            <td id="cell-B1"><input id="cell_B1" class="Input row2 col1 grid1" autocomplete="off"></td>
+                            <td id="cell-B2"><input id="cell_B2" class="Input row2 col2 grid1" autocomplete="off"></td>
+                            <td id="cell-B3"><input id="cell_B3" class="Input row2 col3 grid1" autocomplete="off"></td>
+                            <td id="cell-B4"><input id="cell_B4" class="Input row2 col4 grid2" autocomplete="off"></td>
+                            <td id="cell-B5"><input id="cell_B5" class="Input row2 col5 grid2" autocomplete="off"></td>
+                            <td id="cell-B6"><input id="cell_B6" class="Input row2 col6 grid2" autocomplete="off"></td>
+                            <td id="cell-B7"><input id="cell_B7" class="Input row2 col7 grid3" autocomplete="off"></td>
+                            <td id="cell-B8"><input id="cell_B8" class="Input row2 col8 grid3" autocomplete="off"></td>
+                            <td id="cell-B9"><input id="cell_B9" class="Input row2 col9 grid3" autocomplete="off"></td>
+
+
+                        </tr>
+                        <tr id="row3">
+                            <th class="nav">C</th>
+
+                            <td id="cell-C1"><input id="cell_C1" class="Input row3 col1 grid1" autocomplete="off"></td>
+                            <td id="cell-C2"><input id="cell_C2" class="Input row3 col2 grid1" autocomplete="off"></td>
+                            <td id="cell-C3"><input id="cell_C3" class="Input row3 col3 grid1" autocomplete="off"></td>
+                            <td id="cell-C4"><input id="cell_C4" class="Input row3 col4 grid2" autocomplete="off"></td>
+                            <td id="cell-C5"><input id="cell_C5" class="Input row3 col5 grid2" autocomplete="off"></td>
+                            <td id="cell-C6"><input id="cell_C6" class="Input row3 col6 grid2" autocomplete="off"></td>
+                            <td id="cell-C7"><input id="cell_C7" class="Input row3 col7 grid3" autocomplete="off"></td>
+                            <td id="cell-C8"><input id="cell_C8" class="Input row3 col8 grid3" autocomplete="off"></td>
+                            <td id="cell-C9"><input id="cell_C9" class="Input row3 col9 grid3" autocomplete="off"></td>
+
+
+                        </tr>
+                        <tr id="row4">
+                            <th class="nav">D</th>
+
+                            <td id="cell-D1"><input id="cell_D1" class="Input row4 col1 grid4" autocomplete="off"></td>
+                            <td id="cell-D2"><input id="cell_D2" class="Input row4 col2 grid4" autocomplete="off"></td>
+                            <td id="cell-D3"><input id="cell_D3" class="Input row4 col3 grid4" autocomplete="off"></td>
+                            <td id="cell-D4"><input id="cell_D4" class="Input row4 col4 grid5" autocomplete="off"></td>
+                            <td id="cell-D5"><input id="cell_D5" class="Input row4 col5 grid5" autocomplete="off"></td>
+                            <td id="cell-D6"><input id="cell_D6" class="Input row4 col6 grid5" autocomplete="off"></td>
+                            <td id="cell-D7"><input id="cell_D7" class="Input row4 col7 grid6" autocomplete="off"></td>
+                            <td id="cell-D8"><input id="cell_D8" class="Input row4 col8 grid6" autocomplete="off"></td>
+                            <td id="cell-D9"><input id="cell_D9" class="Input row4 col9 grid6" autocomplete="off"></td>
+                        </tr>
+                        <tr id="row5">
+                            <th class="nav">E</th>
+
+
+                            <td id="cell-E1"><input id="cell_E1" class="Input row5 col1 grid4" autocomplete="off"></td>
+                            <td id="cell-E2"><input id="cell_E2" class="Input row5 col2 grid4" autocomplete="off"></td>
+                            <td id="cell-E3"><input id="cell_E3" class="Input row5 col3 grid4" autocomplete="off"></td>
+                            <td id="cell-E4"><input id="cell_E4" class="Input row5 col4 grid5" autocomplete="off"></td>
+                            <td id="cell-E5"><input id="cell_E5" class="Input row5 col5 grid5" autocomplete="off"></td>
+                            <td id="cell-E6"><input id="cell_E6" class="Input row5 col6 grid5" autocomplete="off"></td>
+                            <td id="cell-E7"><input id="cell_E7" class="Input row5 col7 grid6" autocomplete="off"></td>
+                            <td id="cell-E8"><input id="cell_E8" class="Input row5 col8 grid6" autocomplete="off"></td>
+                            <td id="cell-E9"><input id="cell_E9" class="Input row5 col9 grid6" autocomplete="off"></td>
+
+                        </tr>
+                        <tr id="row6">
+                            <th class="nav">F</th>
+
+                            <td id="cell-F1"><input id="cell_F1" class="Input row6 col1 grid4" autocomplete="off"></td>
+                            <td id="cell-F2"><input id="cell_F2" class="Input row6 col2 grid4" autocomplete="off"></td>
+                            <td id="cell-F3"><input id="cell_F3" class="Input row6 col3 grid4" autocomplete="off"></td>
+                            <td id="cell-F4"><input id="cell_F4" class="Input row6 col4 grid5" autocomplete="off"></td>
+                            <td id="cell-F5"><input id="cell_F5" class="Input row6 col5 grid5" autocomplete="off"></td>
+                            <td id="cell-F6"><input id="cell_F6" class="Input row6 col6 grid5" autocomplete="off"></td>
+                            <td id="cell-F7"><input id="cell_F7" class="Input row6 col7 grid6" autocomplete="off"></td>
+                            <td id="cell-F8"><input id="cell_F8" class="Input row6 col8 grid6" autocomplete="off"></td>
+                            <td id="cell-F9"><input id="cell_F9" class="Input row6 col9 grid6" autocomplete="off"></td>
+
+                        </tr>
+                        <tr id="row7">
+                            <th class="nav">G</th>
+
+
+                            <td id="cell-G1"><input id="cell_G1" class="Input row7 col1 grid7" autocomplete="off"></td>
+                            <td id="cell-G2"><input id="cell_G2" class="Input row7 col2 grid7" autocomplete="off"></td>
+                            <td id="cell-G3"><input id="cell_G3" class="Input row7 col3 grid7" autocomplete="off"></td>
+                            <td id="cell-G4"><input id="cell_G4" class="Input row7 col4 grid8" autocomplete="off"></td>
+                            <td id="cell-G5"><input id="cell_G5" class="Input row7 col5 grid8" autocomplete="off"></td>
+                            <td id="cell-G6"><input id="cell_G6" class="Input row7 col6 grid8" autocomplete="off"></td>
+                            <td id="cell-G7"><input id="cell_G7" class="Input row7 col7 grid9" autocomplete="off"></td>
+                            <td id="cell-G8"><input id="cell_G8" class="Input row7 col8 grid9" autocomplete="off"></td>
+                            <td id="cell-G9"><input id="cell_G9" class="Input row7 col9 grid9" autocomplete="off"></td>
+
+                        </tr>
+                        <tr id="row8">
+                            <th class="nav">H</th>
+
+                            <td id="cell-H1"><input id="cell_H1" class="Input row8 col1 grid7" autocomplete="off"></td>
+                            <td id="cell-H2"><input id="cell_H2" class="Input row8 col2 grid7" autocomplete="off"></td>
+                            <td id="cell-H3"><input id="cell_H3" class="Input row8 col3 grid7" autocomplete="off"></td>
+                            <td id="cell-H4"><input id="cell_H4" class="Input row8 col4 grid8" autocomplete="off"></td>
+                            <td id="cell-H5"><input id="cell_H5" class="Input row8 col5 grid8" autocomplete="off"></td>
+                            <td id="cell-H6"><input id="cell_H6" class="Input row8 col6 grid8" autocomplete="off"></td>
+                            <td id="cell-H7"><input id="cell_H7" class="Input row8 col7 grid9" autocomplete="off"></td>
+                            <td id="cell-H8"><input id="cell_H8" class="Input row8 col8 grid9" autocomplete="off"></td>
+                            <td id="cell-H9"><input id="cell_H9" class="Input row8 col9 grid9" autocomplete="off"></td>
+
+                        </tr>
+                        <tr id="row9">
+                            <th class="nav">I</th>
+
+
+                            <td id="cell-I1"><input id="cell_I1" class="Input row9 col1 grid7" autocomplete="off"></td>
+                            <td id="cell-I2"><input id="cell_I2" class="Input row9 col2 grid7" autocomplete="off"></td>
+                            <td id="cell-I3"><input id="cell_I3" class="Input row9 col3 grid7" autocomplete="off"></td>
+                            <td id="cell-I4"><input id="cell_I4" class="Input row9 col4 grid8" autocomplete="off"></td>
+                            <td id="cell-I5"><input id="cell_I5" class="Input row9 col5 grid8" autocomplete="off"></td>
+                            <td id="cell-I6"><input id="cell_I6" class="Input row9 col6 grid8" autocomplete="off"></td>
+                            <td id="cell-I7"><input id="cell_I7" class="Input row9 col7 grid9" autocomplete="off"></td>
+                            <td id="cell-I8"><input id="cell_I8" class="Input row9 col8 grid9" autocomplete="off"></td>
+                            <td id="cell-I9"><input id="cell_I9" class="Input row9 col9 grid9" autocomplete="off"></td>
+
+                        </tr>
+                    </tbody>
+
+
+                </table>
+            </div>
+            <img id="loader" src="{{url_for('static',filename='icon/loading.gif')}}" alt="" srcset="">
+            <div id="overlay"><span class="fa fa-play" height="100px" width="100px" id="fa-play" onclick="off()"></span>
+            </div>
+
+        </div>
+    </div>
+    <br/>
+
+            <div class="labels " id="try" style="display: none;">
+            
+                <p id="texto">Please Select the level first then start with the game!!!</p>
+                <label class="container">Easy
+                            <input id="Easy" type="radio" value="Easy" checked="checked" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                <label class="container">Medium
+                            <input id="Medium"  type="radio" value="Medium" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                <label class="container">Hard
+                            <input id="Hard" type="radio" value="Hard" name="radio">
+                            <span class="checkmark"></span>
+                          </label>
+                       
+                        
+             </div>
+             
+         <div class="flex-container">
+               
+                <button id="newGame"  class = "flex-item-1" onclick="showDiv()">Start New Game</button>
+                <button id="pause"  class = "flex-item-2" onclick="on();">Pause</button>
+                <button id="check" class = "flex-item-3">Check Solution</button>
+            </div>
+         
+  
+           
+    {% endblock content %}
