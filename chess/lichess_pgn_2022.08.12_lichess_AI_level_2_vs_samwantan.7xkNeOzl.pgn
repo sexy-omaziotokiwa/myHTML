@@ -1,0 +1,20 @@
+[Event "Casual Correspondence game"]
+[Site "https://lichess.org/7xkNeOzl"]
+[Date "2022.08.12"]
+[White "lichess AI level 2"]
+[Black "samwantan"]
+[Result "0-1"]
+[UTCDate "2022.08.12"]
+[UTCTime "14:55:35"]
+[WhiteElo "?"]
+[BlackElo "1500"]
+[Variant "Standard"]
+[TimeControl "-"]
+[ECO "C42"]
+[Opening "Russian Game: Stafford Gambit"]
+[Termination "Normal"]
+[Annotator "lichess.org"]
+
+1. e4 { [%eval 0.33] } 1... e5 { [%eval 0.12] } 2. Nf3 { [%eval 0.19] } 2... Nf6 { [%eval 0.5] } 3. Nxe5 { [%eval 0.34] } 3... Nc6?! { (0.34 → 1.40) Inaccuracy. d6 was best. } { [%eval 1.4] } (3... d6 4. Nf3 Nxe4 5. d4 d5 6. Bd3 Bd6 7. O-O O-O 8. c4) 4. Nxc6 { [%eval 2.3] } 4... dxc6 { [%eval 2.53] } { C42 Russian Game: Stafford Gambit } 5. e5? { (2.53 → 0.95) Mistake. d3 was best. } { [%eval 0.95] } (5. d3 Be6 6. Be2 Qe7 7. Nc3 O-O-O 8. Be3 Rg8 9. f4 g5) 5... Ne4?? { (0.95 → 3.34) Blunder. Nd5 was best. } { [%eval 3.34] } (5... Nd5 6. d4 Bf5 7. c3 Qd7 8. Bd3 c5 9. Bxf5 Qxf5 10. Qa4+) 6. d4 { [%eval 3.32] } 6... Be6 { [%eval 2.98] } 7. Bd3?? { (2.98 → -1.80) Blunder. c3 was best. } { [%eval -1.8] } (7. c3 f5 8. Be2 Qe7 9. O-O O-O-O 10. Qc2 Kb8 11. b4 h5) 7... Qxd4 { [%eval -1.67] } 8. Be3?? { (-1.67 → -5.74) Blunder. O-O was best. } { [%eval -5.74] } (8. O-O O-O-O 9. Qe2 Nc5 10. Rd1 Rd5 11. Nc3 Rxe5 12. Be4 Qc4) 8... Qxb2 { [%eval -5.56] } 9. Bxe4 { [%eval -5.92] } 9... Qxa1 { [%eval -5.75] } 10. Bd4 { [%eval -7.24] } 10... Qxa2 { [%eval -6.8] } 11. Nd2 { [%eval -7.36] } 11... Rd8 { [%eval -6.46] } 12. Be3 { [%eval -6.47] } 12... Qa4 { [%eval -6.26] } 13. Qb1?! { (-6.26 → -9.66) Inaccuracy. c3 was best. } { [%eval -9.66] } (13. c3 Qxd1+ 14. Kxd1 f5 15. exf6 gxf6 16. Kc2 Kf7 17. Rb1 b6 18. Ra1 a5 19. Bxc6 Be7) 13... Rxd2 { [%eval -9.31] } 14. O-O { [%eval -10.37] } 14... Qxe4 { [%eval -10.23] } 15. Qe1 { [%eval -16.05] } 15... Rd8 { [%eval -14.42] } 16. Qc3 { [%eval -15.85] } 16... Be7 { [%eval -13.93] } 17. Rb1 { [%eval -15.42] } 17... b6 { [%eval -14.63] } 18. Rc1 { [%eval -16.27] } 18... O-O { [%eval -15.77] } 19. Rf1 { [%eval -16.34] } 19... f6 { [%eval -15.47] } 20. Re1 { [%eval -17.69] } 20... Bd5 { [%eval -15.56] } 21. g3?! { (-15.56 → Mate in 1) Checkmate is now unavoidable. f3 was best. } { [%eval #-1] } (21. f3 Qg6 22. Bf2 fxe5 23. Qxe5 Bd6 24. Qxd5+ cxd5 25. Bh4 Rd7 26. Bg3 Bc5+ 27. Bf2 d4) 21... Qg2# { Black wins by checkmate. } 0-1
+
+

@@ -1,0 +1,19 @@
+[Event "Casual Correspondence game"]
+[Site "https://lichess.org/1w2yb103"]
+[Date "2022.09.05"]
+[White "lichess AI level 2"]
+[Black "samwantan"]
+[Result "0-1"]
+[UTCDate "2022.09.05"]
+[UTCTime "09:11:23"]
+[WhiteElo "?"]
+[BlackElo "1500"]
+[Variant "Standard"]
+[TimeControl "-"]
+[ECO "C40"]
+[Opening "Latvian Gambit Accepted"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 f5 3. exf5 e4 4. Ne5 Nf6 5. Bc4 d5 6. Bb3 Bxf5 7. O-O c6 8. d3 Bd6 9. g4 Bxe5 10. h3 Bg6 11. d4 Bc7 12. Be3 O-O 13. c4 Qd6 14. a3 Qh2# 0-1
+
+

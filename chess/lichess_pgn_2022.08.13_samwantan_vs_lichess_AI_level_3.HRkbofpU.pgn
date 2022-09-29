@@ -1,0 +1,19 @@
+[Event "Casual Correspondence game"]
+[Site "https://lichess.org/HRkbofpU"]
+[Date "2022.08.13"]
+[White "samwantan"]
+[Black "lichess AI level 3"]
+[Result "1-0"]
+[UTCDate "2022.08.13"]
+[UTCTime "12:36:57"]
+[WhiteElo "1500"]
+[BlackElo "?"]
+[Variant "Standard"]
+[TimeControl "-"]
+[ECO "B40"]
+[Opening "Sicilian Defense: Marshall Counterattack"]
+[Termination "Normal"]
+
+1. e4 c5 2. Nf3 e6 3. d4 d5 4. exd5 exd5 5. Nc3 Be6 6. Ng5 Nf6 7. Nxe6 fxe6 8. Bb5+ Nc6 9. O-O cxd4 10. Qxd4 Bd6 11. Re1 Kf7 12. Qh4 h5 13. Bg5 a6 14. Bd3 e5 15. Nxd5 Nxd5 16. Bxd8 Raxd8 17. Bc4 Ne7 18. Qg5 Kf8 19. Rad1 Bb8 20. Bxd5 Rxd5 21. Rxd5 Bc7 22. Rd7 Ng6 23. Qxg6 b6 24. Qf7# 1-0
+
+

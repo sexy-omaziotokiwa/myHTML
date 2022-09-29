@@ -1,0 +1,19 @@
+[Event "Casual Bullet game"]
+[Site "https://lichess.org/5ATYTaQm"]
+[Date "2022.09.07"]
+[White "Anonymous"]
+[Black "Anonymous"]
+[Result "0-1"]
+[UTCDate "2022.09.07"]
+[UTCTime "10:19:55"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[Variant "Standard"]
+[TimeControl "60+0"]
+[ECO "C45"]
+[Opening "Scotch Game"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 d5 5. Nxc6 bxc6 6. e5 Qe7 7. Bf4 g6 8. Bd3 Bg7 9. Qe2 Be6 10. Nc3 f6 11. exf6 Nxf6 12. O-O-O O-O 13. h4 Rab8 14. f3 Rfe8 15. Rhe1 Qb4 16. b3 Qxc3 17. Bd2 Qa1# 0-1
+
+

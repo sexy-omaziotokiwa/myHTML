@@ -1,0 +1,19 @@
+[Event "Casual Correspondence game"]
+[Site "https://lichess.org/iDA6WnDR"]
+[Date "2022.09.05"]
+[White "samwantan"]
+[Black "lichess AI level 1"]
+[Result "1-0"]
+[UTCDate "2022.09.05"]
+[UTCTime "05:25:39"]
+[WhiteElo "1500"]
+[BlackElo "?"]
+[Variant "Standard"]
+[TimeControl "-"]
+[ECO "C27"]
+[Opening "Bishop's Opening: Boden-Kieseritzky Gambit"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nf6 3. Bc4 Nxe4 4. Nc3 Nxc3 5. dxc3 Nc6 6. Ng5 d5 7. Qf3 Be6 8. Nxe6 fxe6 9. Bb5 Qd7 10. Bg5 e4 11. Qe3 h6 12. Bh4 g5 13. Bg3 a6 14. Be2 O-O-O 15. O-O-O Kb8 16. f4 Qg7 17. fxg5 e5 18. Rd2 Qe7 19. Rhd1 h5 20. h4 Qe8 21. Rxd5 Rxd5 22. Rxd5 Ne7 23. Rxe5 Qf7 24. Bf2 Nc6 25. Rxe4 b5 26. Re8+ Nd8 27. Qa7+ Kc8 28. Qa8+ Kd7 29. Qxd8+ Kc6 30. Qa8+ Kd7 31. Qc8+ Kc6 32. Qxa6+ Kd5 33. Qxb5+ Bc5 34. Qxc5# 1-0
+
+

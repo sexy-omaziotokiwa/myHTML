@@ -1,0 +1,19 @@
+[Event "Casual Bullet game"]
+[Site "https://lichess.org/h1QorpvS"]
+[Date "2022.07.28"]
+[White "Anonymous"]
+[Black "Anonymous"]
+[Result "1-0"]
+[UTCDate "2022.07.28"]
+[UTCTime "13:17:29"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[Variant "Standard"]
+[TimeControl "60+0"]
+[ECO "C20"]
+[Opening "Center Game"]
+[Termination "Normal"]
+
+1. e4 e5 2. d4 f6 3. dxe5 fxe5 4. Qh5+ Ke7 5. Qxe5+ Kf7 6. Bc4+ d5 7. Bxd5+ Kg6 8. h4 h6 9. g4 Bd6 10. Qh5+ Kh7 11. e5 Qe7 12. Be4+ g6 13. Qxg6# 1-0
+
+

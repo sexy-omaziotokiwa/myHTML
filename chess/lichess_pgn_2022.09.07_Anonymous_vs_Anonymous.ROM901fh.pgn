@@ -1,0 +1,19 @@
+[Event "Casual Bullet game"]
+[Site "https://lichess.org/ROM901fh"]
+[Date "2022.09.07"]
+[White "Anonymous"]
+[Black "Anonymous"]
+[Result "0-1"]
+[UTCDate "2022.09.07"]
+[UTCTime "10:34:21"]
+[WhiteElo "?"]
+[BlackElo "?"]
+[Variant "Standard"]
+[TimeControl "60+0"]
+[ECO "C20"]
+[Opening "King's Pawn Game: Clam Variation, King's Gambit Reversed"]
+[Termination "Normal"]
+
+1. e4 e5 2. d3 f5 3. Nc3 fxe4 4. Nxe4 Nf6 5. Nxf6+ Qxf6 6. Qf3 Qg6 7. Be3 c6 8. O-O-O d5 9. g3 Bg4 10. Qg2 Bxd1 11. Kxd1 Bd6 12. Be2 O-O 13. f4 Nd7 14. fxe5 Nxe5 15. Nf3 Nxf3 16. Bxf3 Rae8 17. Bd4 Kh8 18. Bc3 b5 19. Rf1 b4 20. Bd4 c5 21. Bf2 c4 22. dxc4 dxc4 23. Bd4 Rd8 24. c3 bxc3 25. bxc3 Ba3 26. Be4 Rxf1+ 27. Qxf1 Qxe4 28. Qe2 Qb1+ 29. Kd2 Qc1# 0-1
+
+

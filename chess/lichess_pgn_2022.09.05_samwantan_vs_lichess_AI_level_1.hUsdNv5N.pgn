@@ -1,0 +1,19 @@
+[Event "Casual Correspondence game"]
+[Site "https://lichess.org/hUsdNv5N"]
+[Date "2022.09.05"]
+[White "samwantan"]
+[Black "lichess AI level 1"]
+[Result "1-0"]
+[UTCDate "2022.09.05"]
+[UTCTime "05:21:36"]
+[WhiteElo "1500"]
+[BlackElo "?"]
+[Variant "Standard"]
+[TimeControl "-"]
+[ECO "C50"]
+[Opening "Italian Game: Anti-Fried Liver Defense"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 Nc6 3. Bc4 h6 4. d4 exd4 5. c3 Nf6 6. O-O dxc3 7. e5 cxb2 8. Bxb2 Nh7 9. Qd5 Qe7 10. Ba3 d6 11. exd6 Be6 12. dxe7 Ng5 13. exf8=Q+ Rxf8 14. Re1 Ne4 15. Rxe4 Rd8 16. Rxe6+ Ne7 17. Rxe7# 1-0
+
+

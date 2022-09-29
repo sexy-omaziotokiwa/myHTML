@@ -1,0 +1,19 @@
+[Event "Casual Correspondence game"]
+[Site "https://lichess.org/vyxB9Un0"]
+[Date "2022.09.05"]
+[White "lichess AI level 3"]
+[Black "samwantan"]
+[Result "0-1"]
+[UTCDate "2022.09.05"]
+[UTCTime "09:12:37"]
+[WhiteElo "?"]
+[BlackElo "1500"]
+[Variant "Standard"]
+[TimeControl "-"]
+[ECO "C40"]
+[Opening "Elephant Gambit: Paulsen Countergambit"]
+[Termination "Normal"]
+
+1. e4 e5 2. Nf3 d5 3. exd5 e4 4. Qe2 Nf6 5. Nc3 c6 6. dxc6 Nxc6 7. d3 Be7 8. dxe4 O-O 9. Bd2 Re8 10. O-O-O Bg4 11. h3 Bxf3 12. gxf3 Nd4 13. Qd3 Qb6 14. Rg1 Red8 15. Bh6 g6 16. Kb1 Ba3 17. Bc1 a6 18. f4 Nb5 19. Rxg6+ fxg6 20. Nxb5 Rxd3 21. Bxd3 axb5 22. Be3 Bc5 23. Re1 b4 24. a3 bxa3 25. Kc1 Qxb2+ 26. Kd1 Bb4 27. Bc4+ Kg7 28. Rf1 Qc3 29. Be6 Rd8+ 30. Ke2 Qxc2+ 31. Kf3 Qxe4+ 32. Ke2 Rd2+ 33. Ke1 Qb1# 0-1
+
+
