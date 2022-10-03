@@ -3,14 +3,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8">
-    <title> Responsiive Admin Dashboard | CodingLab </title>
+    <title> Responsive Admin Dashboard | CodingLab </title>
     <!-- Boxicons CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     </head>
 <body>
-  <div class="sidebar">
+  <div class="sidebar active">
     <div class="logo-details">
       <i class='bx bxl-c-plus-plus'></i>
       <span class="logo_name">CodingLab</span>
@@ -85,9 +85,9 @@
       </ul>
   </div>
 
-  <!-- home content -->
+  <!-- home scetion -->
   <section class="home-section">
-    <nav>
+    <nav class="topnav">
       <div class="sidebar-button">
         <i class='bx bx-menu sidebarBtn'></i>
         <span class="dashboard">Dashboard</span>
@@ -97,12 +97,13 @@
         <i class='bx bx-search' ></i>
       </div>
       <div class="profile-details">
-        <img src="images/profile.jpg">
-        <span class="admin_name" style="position: absolute;">Prem Shahi</span>
+      <!-- <img src="./images/profile.jpg"> -->
+        <span class="admin_name">Prem Shahi</span>
         <i class='bx bx-chevron-down' ></i>
       </div>
     </nav>
 
+      <!-- home content --> 
     <div class="home-content">
       <div class="overview-boxes">
         <div class="box">
@@ -257,7 +258,7 @@
             </a>
             <span class="price">$2345</span>
           </li>
-<li>
+          <li>
             <a href="#">
              <!--<img src="images/shirt.jpg" alt="">-->
               <span class="product">Bilack Wear's Shirt</span>
@@ -271,15 +272,16 @@
   </section>
 
   <script>
-   let sidebar = document.querySelector(".sidebar");
-let sidebarBtn = document.querySelector(".sidebarBtn");
-sidebarBtn.onclick = function() {
-  sidebar.classList.toggle("active");
-  if(sidebar.classList.contains("active")){
-  sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
-}else
-  sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
-}
+    let sidebar = document.querySelector(".sidebar");
+    let sidebarBtn = document.querySelector(".sidebarBtn");
+    sidebarBtn.onclick = function() {
+      sidebar.classList.toggle("active");
+      if (sidebar.classList.contains("active"))
+      sidebarBtn.classList.replace("bx-menu" ,"bx-menu-alt-right");
+      
+      else
+      sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+    }
  </script>
 
 </body>
