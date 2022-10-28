@@ -22,5 +22,6 @@
         "**/*.sass",
         "**/*.less",
         "**/*.styl"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
