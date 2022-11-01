@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.pics {
+    display: flex;
+}
+
+.pics img {
+
+    background: transparent;
+    /* filter: drop-shadow(0 0 20px #00000080); */
+}
+
+.pic1 {
+    opacity: 1;
+}
+
+.pic2 {
+    transform: translateX(-65px) rotate(-2deg);
+}
+
+.pic3 {
+    transform: translateX(-140px);
+}
+
+.pic4 {
+    transform: translateX(-180px) translateY(8px);
+}
+
+.pic5 {
+    transform: translateX(-200px) translateY(10px);
+}
+
+div :not(:first-child) {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* .pic1:hover {
+    opacity: 0;
+}*/
+
+/* .pic1:hover ~ .pic2 {
+    transform: translateX(-60px);
+}
+
+.pic1:hover ~ .pic3 {
+    transform: translateX(-80px);
+    opacity: 1;
+    visibility: visible; 
+} */
+
+
