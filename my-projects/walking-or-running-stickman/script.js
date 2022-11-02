@@ -5,15 +5,21 @@ const pic3 = document.querySelector(".pic3");
 const pic4 = document.querySelector(".pic4");
 const pic5 = document.querySelector(".pic5");
 
-async function test() {
+const pic2_1 = document.querySelector(".pic2_1");
+const pic3_1 = document.querySelector(".pic3_1");
+const pic4_1 = document.querySelector(".pic4_1");
+const pic5_1 = document.querySelector(".pic5_1");
+
+
+async function test(two, three, four, five) {
     // debugger
     await new Promise(resolve => setTimeout(resolve, 1000));
-    animation1(pic2, pic3);
+    animation1(two, three);
     await new Promise(resolve => setTimeout(resolve, 1000));
-    animation1(pic3, pic4);
+    animation1(three, four);
     await new Promise(resolve => setTimeout(resolve, 1000));
-    animation1(pic4, pic5);
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    animation1(four, five);
+    // await new Promise(resolve => setTimeout(resolve, 1000));
 }
 
 // test()
@@ -23,9 +29,9 @@ async function test() {
 //     })
 
 async function test2() {
-    await new Promise(x => setTimeout(x, 1000));
-    pics.style = "transform: translateX(300px)";
-    test();
+    animation1(pic5, pic2_1);
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    test(pic2_1, pic3_1, pic4_1, pic5_1);
     
 }
 
@@ -34,17 +40,15 @@ async function mouse_hover_delay() {
     await new Promise(resolve => setTimeout(resolve, 1000));
     pic1.addEventListener("mouseover",
         animation1(pic1, pic2),
-        test(),
-        await new Promise(resolve => setTimeout(resolve, 1000)),
-        test2()
+        test(pic2, pic3, pic4, pic5),
     );
+    // debugger
+    await new Promise(resolve => setTimeout(resolve, 1000));
+    test2();
 }
 
 function mouse_hover_func() {
     mouse_hover_delay();
-    
-    console.log("stop");
-
 }
 
 

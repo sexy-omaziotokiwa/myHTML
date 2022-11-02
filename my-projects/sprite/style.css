@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(484px / 4);
+    height: 180px;
+    background: url(strip2.png);
+    transition: 0.1s ease-in-out;
+    animation: animate 1s steps(5) infinite;
+}
+
+@keyframes animate {
+    from {
+        background-position: 484px;
+    }
+
+    to {
+        background-position: 0;
+    }
+}
