@@ -1,0 +1,382 @@
+﻿-- logger module started --
+main: one instance mode ENABLED
+main: Running vlc with the default interface. Use 'cvlc' to use vlc without interface.
+avcodec: Using D3D11VA (Intel(R) HD Graphics 520, vendor 8086(Intel), device 1916, revision 7) for hardware decoding
+main error: Timestamp conversion failed for 4400001: no reference clock
+main error: Could not convert timestamp 0 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30201541814 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30201727574 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30201913334 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30202099094 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30202284854 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30202470614 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30202656374 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30202842134 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30203027894 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30816091616 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30717714157 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30717899909 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30718085669 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30718271429 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30718457189 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30718642949 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30718828709 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30719014469 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30719200229 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30719385989 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30719571749 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30719757509 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30719943269 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30720129029 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30720314789 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30720500549 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30718553341 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30720686309 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30720872069 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30721057829 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30721243589 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30721429349 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30721615109 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30721800869 for faad
+main error: Could not convert timestamp 30718820005 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30721986621 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30722172381 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30722358141 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30722543901 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30722729661 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30722915421 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30719086669 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30723101181 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30723286941 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30723472701 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30723658461 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30723844221 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30724029981 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30724215741 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30724401501 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30724587261 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30719353341 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30724773021 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30724958781 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30725144541 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30719620005 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30725330301 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30725516061 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30725701821 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30725887581 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30726073341 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30719886669 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30726259093 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30726444853 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30726630613 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30726816373 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30727002133 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30727187893 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30727373653 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30720153341 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30720420005 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30720686669 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30720953341 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30721220005 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30721486669 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30721753341 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30722020005 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30722286669 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30722553341 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30722820005 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30723086669 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30723353341 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30723620005 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30723886669 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30724153341 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30724420005 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30724686669 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30724953341 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30725220005 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30725486669 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30725753341 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30726020005 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30726286669 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30724081150 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30724266910 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30724452670 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30724638430 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30724824190 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30725009950 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30725195710 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30725381462 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30940820531 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30941087195 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30941353867 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30941620531 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30941887195 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30942153867 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30942420531 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30942687195 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30942953867 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30943220531 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30943487195 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30943753867 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 9000000)
+main error: Could not convert timestamp 30944020531 for FFmpeg
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30935333723 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30935519483 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30935705243 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30935891003 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30936076763 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30936262523 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30936448283 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30936634043 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30936819803 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30937005563 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30937191323 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30937377083 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30937562843 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30937748603 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30937934363 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30938120123 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30938305883 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30938491643 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30938677403 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30938863163 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30939048923 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30939234683 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30939420435 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30939606195 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30939791955 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30939977715 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30940163475 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30940349235 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30940534995 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30940720755 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30940906515 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30941092275 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30941278035 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30941463795 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30941649555 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30941835315 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30942021075 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30942206835 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30942392595 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30942578355 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30942764115 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30942949875 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30943135635 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30943321395 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30943507147 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30943692907 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30943878667 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30944064427 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30944250187 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30944435947 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30944621707 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30944807467 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30944993227 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30947629362 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30947815122 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30948000882 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30948186642 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30948372394 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30948558154 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30948743914 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30948929674 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30949115434 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30949301194 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30949486954 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30949672714 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30949858474 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30950044234 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30950229994 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30950415754 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30950601514 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30950787274 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30950973034 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30951158794 for faad
+main error: Timestamp conversion failed (delay 8000000, buffering 800000, bound 3000000)
+main error: Could not convert timestamp 30951344554 f
