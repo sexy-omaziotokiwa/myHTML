@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+:root {
+    --white: #fff;
+    --black: #24292d;
+    --nav-main: #4070f4;
+    --switchers-main: #0b3cc1;
+    --light-bg: #f0f8ff;
+    --main-color: #f75023;
+
+    --orange: #f79f1f;
+    --purple: #8e44ad;
+    --green: #3a9943;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background: var(--nav-main);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav .navbar {
+    height: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 30px;
+}
+.navbar a {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    position: relative;
+    list-style: none;
+    margin: 0 8px;
+}
+
+.nav-links li a {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.links::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 4px;
+    background: var(--main-color);
+    bottom: 5px;
+    left: 0;
+    transition: ease 0.40s;
+}
+
+.links:hover::after {
+    width: 100%;
+}
+
+.appearance {
+    display: flex;
+    align-items: center;
+}
+
+.appearance .light-dark,
+.appearance .color-icon .icons {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: var(--white);
+    margin: 0 10px;
+    border-radius: 6px;
+    background: var(--switchers-main);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.appearance .color-icon {
+    position: relative;
+}
+
+.appearance .color-icon .icons {
+    width: 70px;
+}
+
+.appearance .light-dark:hover,
+.appearance .color-icon .icons:hover {
+    opacity: 1;
+}
+
+.appearance .color-icon .color-box {
+    position: absolute;
+    bottom: -133px;
+    right: 0;
+    min-height: 100px;
+    background: var(--white);
+    padding: 16px 20px 20px 20px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.color-icon.open .color-box {
+    opacity: 1;
+    pointer-events: auto;
+}
+.color-icon .color-box::before {
+    content: '';
+    position: absolute;
+    right: 20px;
+    top: -10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: var(--white);
+}
+
+.color-icon .color-box h3 {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.color-box .color-switchers {
+    display: flex;
+}
+
+/* blue button */
+.color-box .color-switchers .btn {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    background: #4070f4;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+.color-switchers .btn.blue.active {
+    box-shadow: 0 0 0 2px #fff,
+                0 0 0 4px var(--nav-main);
+}
+
+/* orange button */
+
+.color-switchers .btn.orange {
+    background: var(--orange);
+}
+
+.color-switchers .btn.orange.active {
+    box-shadow: 0 0 0 2px #fff,
+                0 0 0 4px var(--orange);
+}
+
+/* end orange btn */
+
+/* purple btn */
+.color-switchers .btn.purple {
+    background: var(--purple);
+}
+
+.color-switchers .btn.purple.active {
+    box-shadow: 0 0 0 2px #fff,
+                0 0 0 4px var(--purple);
+}
+
+/* end purple btn */
+
+
+/* green btn */
+.color-switchers .btn.green {
+    background: var(--green);
+}
+
+.color-switchers .btn.green.active {
+    box-shadow: 0 0 0 2px #fff,
+                0 0 0 4px var(--green);
+}
+
+/* end green btn */
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: var(--light-bg);
+    padding: 0 60px;
+}
+
+.home-content h2 {
+    font-size: 35px;
+    color: #9136EC;
+}
+
+.home-content h3 {
+    font-size: 28px;
+}
+
+.home-content span {
+    color: var(--main-color);
+}
+
+.home-content p {
+    margin-bottom: 15px;
+}
+
+.home-content a {
+    font-size: 20px;
+    padding: 12px 24px;
+    color: #fff;
+    background: var(--nav-main);
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.home-content a i {
+    transform: rotate(45deg);
+}
+
+.home-content a:hover {
+    background: var(--switchers-main);
+}

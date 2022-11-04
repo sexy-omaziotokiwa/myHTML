@@ -1,0 +1,27 @@
+{
+    "colorize.languages": [
+
+        "css",
+        "html",
+        "js",
+        "sass",
+        "scss",
+        "less",
+        "postcss",
+        "sss",
+        "stylus",
+        "xml",
+        "svg"
+    ],
+    "colorize.include": [
+        
+
+        "**/*.css",
+        "**/*.js",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.less",
+        "**/*.styl"
+    ],
+    "liveServer.settings.port": 5501
+}

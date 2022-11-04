@@ -1,143 +1,202 @@
-<!--   https://www.youtube.com/watch?v=lgeoAUvoRJU -->
-
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Portfolio Website</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="./style.css">
-</head>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>University Website</title>
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 
-<body>
-    <!-- hero Section start -->
-    <div class="hero">
-        <nav>
-            <h2 class="logo">Portfo<span>lio</span></h2>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-            <a href="#" class="btn">Subscribe</a>
-        </nav>
+        <!-- icons -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html">
+                    <img src="./images/logo.png" alt="logo">
+                </a>
+                <div class="nav-links" id="navLinks">
+                    
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSES</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
 
-        <div class="content">
-            <h4>Hello, my name is</h4>
-            <h1><span>Caeo Tan</span></h1>
-            <h3>I'm a Web Developer, Math and Python Enthusiast.</h3>
-            <div class="newslatter">
-                <form>
-                    <input type="email" name="email" id="mail" placeholder="Enter Your Email">
-                    <input type="submit" name="submit" value="Let's Start">
-                </form>
+            <div class="text-box">
+                <h1>World's Biggest University</h1>
+                <p>Making Website is now one of the easiest things in the world. You just need to learn HTML, CSS,<br>Javascript and you are good to go.</p>
+                <a href="" class="hero-btn">Visit us to know more</a>
             </div>
-        </div>
-    </div>
+        </section>
+        <!-- course section -->
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <h4>Computer Engineering · Electrical Engineering · Electronics Engineering</h4>
 
-    <!-- end hero section -->
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nesciunt possimus molestiae sapiente minus nisi repellendus magnam ut est. Natus molestias recusandae earum suscipit culpa.</p>
+                </div>
 
-    <!-- about section start-->
-    <section class="about">
-        <div class="main">
-            <img src="./images/main-img.png">
-            <span></span>
-            <span></span>
-            <div class="about-text">
-                <h2>About Me</h2>
-                <h5>Developer <span>& Designer</span></h5>
-                <p>I am a front-end web developer. I can provide clean code and pixel
-                    perfect design. I also make the webisite more & more interactive
-                    with web animations. A responsive design makes your website
-                    accessible to all users, regardless of their device.
-                </p>
-                <button type="button">Let's Talk</button>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nesciunt possimus molestiae sapiente minus nisi repellendus magnam ut est. Natus molestias recusandae earum suscipit culpa.</p>
+                </div>
+
+                <div class="course-col">
+                    <h3>Post Graduate</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nesciunt possimus molestiae sapiente minus nisi repellendus magnam ut est. Natus molestias recusandae earum suscipit culpa.</p>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- about section end-->
+        </section>
 
-    <!--  service section  start   -->
-    <div class="service">
-        <div class="title">
-            <h2>Our Services</h2>
-        </div>
-
-        <div class="container">
-            <div class="box">
-                <!-- card 1 -->
-                <div class="card">
-                    <i class="fas fa-bars"></i>
-                    <h5>Web Development</h5>
-                    <div class="pra">
-                        <p>Every website should be build with two primary goals: Firstly, it needs
-                            to work across all devices. Secondly, it needs to be as fast as possible.
-                        </p>
-                        <p style="text-align: center;">
-                            <a class="button" href="#">Read More</a>
-                        </p>
+        <!-- campus section -->
+        <section class="campus">
+            <h1>Our Global Campus</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="./images/london.png" alt="london">
+                    <div class="layer">
+                        <!-- <div class="box1"></div> -->
+                        <h3>LONDON</h3>
                     </div>
                 </div>
-        
-                <!-- card 2 -->
-                <div class="card">
-                    <i class="fas fa-user"></i>
-                    <h5>Web Development</h5>
-                    <div class="pra">
-                        <p>Every website should be build with two primary goals: Firstly, it needs
-                            to work across all devices. Secondly, it needs to be as fast as possible.
-                        </p>
-                        <p style="text-align: center;">
-                            <a class="button" href="#">Read More</a>
-                        </p>
+
+                <div class="campus-col">
+                    <img src="./images/newyork.png" alt="london">
+                    <div class="layer">
+                        <!-- <div class="box2"></div> -->
+                        <h3>NEW YORK</h3>
                     </div>
                 </div>
-        
-                <!-- card 3 -->
-                <div class="card">
-                    <i class="fas fa-bell"></i>
-                    <h5>Web Development</h5>
-                    <div class="pra">
-                        <p>Every website should be build with two primary goals: Firstly, it needs
-                            to work across all devices. Secondly, it needs to be as fast as possible.
-                        </p>
-                        <p style="text-align: center;">
-                            <a class="button" href="#">Read More</a>
-                        </p>
+
+                <div class="campus-col">
+                    <img src="./images/washington.png" alt="london">
+                    <div class="layer">
+                        <!-- <div class="box3"></div> -->
+                        <h3>WASHINGTON</h3>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
 
-    <!-- ---- Contact Me start  ---- -->
-    <div class="contact-me">
-        <p>Let Me Get You a Beautful Website.</p>
-        <a class="button-two" href="#">Hire Me</a>
-    </div>
-    <!-- ----  Contact Me end ---- -->
+        <!-- facilities section -->
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/library.png" alt="library">
+                    <h3>World Class Library</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Pellentesque aliquet turpis nulla.
+                    </p>
+                </div>
 
-    <!-- footer start -->
-    <footer>
-        <p>Caeo Tan</p>
-        <p>For Chess Content, please click on the link below to subscribe to my channel:</p>
-        <div class="social">
-            <a href="#"></a>
-        </div>
-    </footer>
+                <div class="facilities-col">
+                    <img src="images/basketball.png" alt="library">
+                    <h3>Largest Playground</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Pellentesque aliquet turpis nulla.
+                    </p>
+                </div>
 
-    <!-- footer end -->
+                <div class="facilities-col">
+                    <img src="images/cafeteria.png" alt="library">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Pellentesque aliquet turpis nulla.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-    <script type="text/javascript" src="vanilla-tilt.js"></script>
-    <script type="text/javascript">
-        VanillaTilt.init(document.querySelectorAll(".card"), {
-            max: 25,
-            speed: 400
-        });
-        
-    </script>
-</body>
+        <!-- testimonials section -->
+        <section class="testimonials">
+            <h1>What Our Top Student Say</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="./images/user1.jpg" alt="user1">
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Pellentesque aliquet turpis nulla, eleifend
+                            faucibus est sollicitudin ut. Maecenas ut veneatis ex,
+                            et dapibus purus.
+                        </p>
+                        <h3>Christine Berkley</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+
+                <div class="testimonial-col">
+                    <img src="./images/user2.jpg" alt="user1">
+                    <div>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Pellentesque aliquet turpis nulla, eleifend
+                            faucibus est sollicitudin ut. Maecenas ut venenatis ex,
+                            et dapibus purus.
+                        </p>
+                        <h3>David Byer</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- call to action -->
+        <section class="cta">
+            <h1>Enroll Our Online Courses And Study Anywhere</h1>
+            <a href="" class="hero-btn">CONTACT US</a>
+        </section>
+
+        <!-- Footer -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet,, consectetur adipiscing elit.
+                Pellentesque aliquet turpis nulla, eleifend faucibus est
+                <br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made With <i class="fa fa-heart-o"></i> by Caeo Tan</p>
+        </section>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
 </html>
