@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Custom Select Menu | Dark & L</title>
+
+    
+</head>
+<body>
+    
+    <div class="iconbox">
+        <ion-icon name="wifi-outline" id="icon1"></ion-icon>
+        <ion-icon name="bluetooth-outline" id="icon2"></ion-icon>
+        <ion-icon name="airplane-outline" id="icon3"></ion-icon>
+        <ion-icon name="location-outline" id="icon4"></ion-icon>
+        <ion-icon name="moon-outline" id="icon5"></ion-icon>
+    </div>
+    
+    <div class="box">
+        <div class="profile">
+            <div class="imgBx">
+                <img src="./img5.jpg" alt="img">
+            </div>
+            
+            <h4 class="text">
+                John Smith<br>
+                <span>Creative Designer</span>
+            </h4>
+        </div>
+
+        <ul class="menu">
+            <li>
+                <label>
+                    <span class="title">
+                        <ion-icon name="wifi"></ion-icon>
+                        Wi-Fi
+                    </span>
+                    <span class="action">
+                        <input type="checkbox" id="cbox1" onclick="changename1()">
+                        <i></i>
+                    </span>
+                </label>
+            </li>
+
+            <li>
+                <label>
+                    <span class="title">
+                        <ion-icon name="bluetooth"></ion-icon>
+                        Bluetooth
+                    </span>
+                    <span class="action">
+                        <input type="checkbox" id="cbox2" onclick="changename2()">
+                        <i></i>
+                    </span>
+                </label>
+            </li>
+
+            <li>
+                <label>
+                    <span class="title">
+                        <ion-icon name="airplane"></ion-icon>
+                        Airplane Mode
+                    </span>
+                    <span class="action">
+                        <input type="checkbox" id="cbox3" onclick="changename3()">
+                        <i></i>
+                    </span>
+                </label>
+            </li>
+
+            <li>
+                <label>
+                    <span class="title">
+                        <ion-icon name="location"></ion-icon>
+                        Location
+                    </span>
+                    <span class="action">
+                        <input type="checkbox" id="cbox4" onclick="changename4()">
+                        <i></i>
+                    </span>
+                </label>
+            </li>
+
+
+            <li>
+                <label>
+                    <span class="title">
+                        <ion-icon name="moon"></ion-icon>
+                        Dark Mode
+                    </span>
+                    <span class="action">
+                        <input type="checkbox" id="cbox5" onclick="changename5()" value="0" />
+                        <i></i>
+                    </span>
+                </label>
+            </li>
+
+            
+        </ul>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        
+        let icon1 = document.getElementById("icon1");
+        let icon2 = document.getElementById("icon2");
+        let icon3 = document.getElementById("icon3");
+        let icon4 = document.getElementById("icon4");
+        let icon5 = document.getElementById("icon5");
+
+        let cbox1 = document.getElementById("cbox1");
+        let cbox2 = document.getElementById("cbox2");
+        let cbox3 = document.getElementById("cbox3");
+        let cbox4 = document.getElementById("cbox4");
+        let cbox5 = document.getElementById("cbox5");
+
+        function changename1() {
+            if (cbox1.value == 1) {
+                cbox1.value = 0;
+                icon1.setAttribute("name", "wifi-outline");
+            }
+            else {
+                cbox1.value = 1;
+                icon1.setAttribute("name", "wifi");
+            }
+        }
+
+        function changename2() {
+            if (cbox2.value == 1) {
+                cbox2.value = 0;
+                icon2.setAttribute("name", "bluetooth-outline");
+            }
+            else 
+            {
+                cbox2.value = 1;
+                icon2.setAttribute("name", "bluetooth");
+            }
+        }
+
+        function changename3() {
+            if (cbox3.value == 1) {
+                cbox3.value = 0;
+                icon3.setAttribute("name", "airplane-outline");
+            }
+            else {
+                cbox3.value = 1;
+                icon3.setAttribute("name", "airplane");
+            }
+        }
+
+        function changename4() {
+            if (cbox4.value == 1){
+                cbox4.value = 0;
+                icon4.setAttribute("name", "location-outline");
+            }
+            else {
+                cbox4.value = 1;
+                icon4.setAttribute("name", "location");
+            }
+        }
+        
+        function changename5() {
+            if (cbox5.value == 1){
+                cbox5.value = 0;
+                icon5.setAttribute("name", "moon-outline");
+                document.body.style.background = "#f0f0f0";
+                //let body = docmuent.querySelector("body");
+                // body.classList.add('darkmode')
+                // then add css styling
+            }
+            else {
+                cbox5.value = 1;
+                icon5.setAttribute("name", "moon");
+                document.body.style.background = "rgb(49, 47, 50)";
+            }
+        }
+
+    </script>
+</body>
+</html>
