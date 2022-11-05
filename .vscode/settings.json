@@ -1,4 +1,7 @@
 {
+    "emmet.triggerExpansionOnTab": true,
+    "files.associations": {"*html": "html"},
+    "emmet.useInlineCompletions": true,
     "colorize.languages": [
 
         "css",
@@ -23,5 +26,12 @@
         "**/*.less",
         "**/*.styl"
     ],
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "emmet.includeLanguages": {
+        "html": "html",
+        "css": "css"
+    },
+    "editor.tabCompletion": "on",
+    "diffEditor.codeLens": true,
+
 }

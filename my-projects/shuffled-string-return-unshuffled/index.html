@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .bigbox {
+            width: 300px;
+            height: 300px;
+        }
+
+
+        #submit {
+            left: 100px;
+            margin-top: 10px;
+            margin-bottom: 8px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="bigbox">
+        <div class="box1">
+            <input type="text" placeholder="Input your text" id="textbox" onkeypress="return restrictAlphabets(event)">
+        </div>
+        <div class="box2">
+            <input type="text" placeholder="Input indices" id="indices" onkeypress="return restrictNumbers(event)">
+        </div>
+        <input type="button" id="submit" value="Submit" onclick="submitting()">
+        <h2 class="h2-1">Your unshuffled text is<br></h2>
+        <h2 class="h2"></h2>
+    </div>
+    <script>
+        let txt = document.getElementById('textbox');
+        let indi = document.getElementById('indices');
+        let h2 = document.querySelector('.h2');
+        let indi_int = [];
+        let tf = true;
+        let new_text = [];
+        let new2 = "";
+
+        // textbox input
+        function restrictAlphabets(e) {
+            var x = e.which || e.keycode;
+            if ((x >= 65 && x <= 90) || (x >= 97 && x <= 122))
+                return true
+            else
+                return false
+        }
+
+        // indices input
+        function restrictNumbers(e) {
+            var x = e.which || e.keycode;
+            if ( x >= 48 && x <= 57)
+                return true
+            else
+                return false
+        }
+
+        function submitting() {
+            // check for text.length, check for indices if it contains 0 to text.length
+            if (txt.value.length > 0 && indi.value.length == txt.value.length) {
+                if (!indi.value.includes('0')) {
+                    indi.value = ''
+                }
+                else {
+                    // indi.value has '0'
+                    for (let j = 0; j < txt.value.length; j++) {
+                        // check indices if each index is not greater than the length of text
+                        if (indi.value[j] > txt.value.length) {
+                            txt.value = ''
+                            indi.value = ''
+                            tf = false
+                        }
+
+                    }
+                    do {
+                        for (let i = 0; i < indi.value.length; i++) {
+                            if (tf == false)
+                                break
+                            if (i >= 1) {
+                                for (let j = 0; j < i; j++) {
+                                    if (indi.value[j] == i)
+                                        tf = false
+                                        break
+                                }
+                            }
+                            indi_int[i] = parseInt(indi.value[i])
+                        }
+
+                        // for (let [index, value] of indi_int.entries())
+                        if (tf == true) {
+                            for (let i = 0; i < indi_int.length; i++) {
+                                let x = txt.value[indi_int.indexOf(i)]
+                                new_text.splice(i, 0, x)
+                                console.log(new_text)
+                            }
+                            new2 = new_text.join('')
+                            h2.innerHTML = ''
+                            h2.innerHTML = new2
+                            console.log(new2)
+                            console.log(h2.innerHTML)
+                        }
+                    } while (tf == true)
+
+                    
+                }
+            }
+            else {
+                txt.value = ''
+                indi.value = ''
+            }
+        }
+    </script>
+</body>
+</html>
