@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* margin: 0;
+    padding: 0; */
+    width: 410px;
+    height: 410px;
+    column-gap: 10px;
+}
+
+.container .card {
+    position: relative;
+    width: 205px;
+    height: 205px;
+    overflow: hidden;
+    margin: 0px -5px;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    /* heptagon */
+}
+
+.container .card:nth-child(2),
+.container .card:nth-child(4) {
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+}
+
+.container .card img {
+    transition: 0.5s;
+}
+
+.container .card:hover img {
+    transform: scale(1.5);
+}
