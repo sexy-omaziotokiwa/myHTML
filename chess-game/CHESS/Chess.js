@@ -4,15 +4,15 @@ function insertImage() {
     document.querySelectorAll('.box').forEach(image => {
 
         if (image.innerText.length !== 0) {
+            path = `./CHESS/{image.innerText}.png`;
             if (image.innerText == 'Wpawn' || image.innerText == 'Bpawn') {
-                image.innerHTML = `${image.innerText} <img class='allimg allpawn' src="${image.innerText}.png" alt="">`
+                image.innerHTML = `<img class="allimg allpawn" src="./CHESS/${image.innerHTML}.png">`
                 image.style.cursor = 'pointer'
-
+                
             }
-
+            
             else {
-
-                image.innerHTML = `${image.innerText} <img class='allimg' src="${image.innerText}.png" alt="">`
+                image.innerHTML = `<img class="allimg allpawn" src="./CHESS/${image.innerHTML}.png">`
                 image.style.cursor = 'pointer'
             }
         }

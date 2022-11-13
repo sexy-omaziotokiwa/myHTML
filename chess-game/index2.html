@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style2.css">
     <script type="text/javascript"> if (!window.console) console = {log: function() {}}; </script>
     <title>Chess Engine</title>
+
+    <style>
+        #FenInDiv {
+            position: relative;
+            left: 60px;
+        }
+
+        #fenIn {
+            width: 400px;
+            left: 60px;
+            border-radius: 30px;
+
+        }
+
+        #SetFen {
+            cursor: pointer;
+            border-radius: 50px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -21,6 +39,10 @@
 
     <script src="./js/jquery-1.10.2.min.js"></script>
     <script src="./js/defs.js"></script>
+    <script src="./js/io.js"></script>
+    <script src="./js/board.js"></script>
+    <script src="./js/movegen.js"></script>
+    <script src="./js/gui.js"></script>
     <script src="./js/script2.js"></script>
 </body>
 </html>
