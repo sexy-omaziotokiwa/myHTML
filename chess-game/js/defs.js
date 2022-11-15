@@ -89,7 +89,13 @@ var KnDir = [ -8, -19,	-21, -12, 8, 19, 21, 12 ];
 var RkDir = [ -1, -10,	1, 10 ];
 var BiDir = [ -9, -11, 11, 9 ];
 var KiDir = [ -1, -10,	1, 10, -9, -11, 11, 9 ];
-
+// var KiDir = [-9, -10, -11, -1, 1, 9, 10, 11];
+var DirNum = [0, 0, 8, 4, 4, 8, 8, 0, 8, 4, 4, 8, 8];
+var PceDir = [0, 0, KnDir, BiDir, RkDir, KiDir, KiDir, 0, KnDir, BiDir, RkDir, KiDir, KiDir];
+var LoopNonSlidePce = [PIECES.wN, PIECES.wK, 0, PIECES.bN, PIECES.bK, 0];
+var LoopNonSlideIndex = [0, 3];
+var LoopSlidePce = [PIECES.wB, PIECES.wR, PIECES.wQ, 0, PIECES.bB, PIECES.bR, PIECES.bQ, 0];
+var LoopSlideIndex = [0, 4];
 
 var PieceKeys = new Array(14 * 120);
 var SideKey;
@@ -109,3 +115,51 @@ function SQ120(sq64) {
 function PCEINDEX(pce, pceNum) {
 	return (pce * 10 + pceNum);
 }
+
+
+function FROMSQ(m) { return (m & 0x7F); }
+function TOSQ(m) { return ((m >> 7) & 0x7F); }
+function CAPTURED(m) { return ((m >> 14) & 0xF); }
+function PROMOTED(m) { return ((m >> 20) & 0xF); }
+
+var MFLAGEP = 0x40000; // MOVE FLAG EN PASSANT
+var MFLAGPS = 0x80000; // MOVE FLAG PAWN START
+var MFLAGCA = 0x100000; // MOVE FLAG CASTLING
+var MFLAGPCAP = 0x7C000; // MOVE FLAG CAPTURE
+var MFLAGPROM = 0xF00000; // MOVE FLAG PROMOTION  10XF00000
+
+var NOMOVE = 0;
+
+function SQOFFBOARD(sq) {
+    if (FilesBrd[sq] == SQUARES.OFFBOARD) return BOOL.TRUE;
+    return BOOL.FALSE;
+}
+
+
+function HASH_PCE(pce, sq) {
+    GameBoard.posKey ^= PieceKeys[pce*120 + sq];
+}
+
+function HASH_CA() {  GameBoard.posKey ^= CastleKeys[GameBoard.castlePerm];  }
+function HASH_SIDE() {  GameBoard.posKey ^= SideKey;  }
+function HASH_EP() {  GameBoard.posKey ^= PieceKeys[GameBoard.enPas];  }
+
+
+/*
+0000  0
+0001  1
+0010  2
+0011  3
+0100  4
+0101  5
+0110  6
+0111  7
+1000  8
+1001  9 
+1010  A(10)
+1011  B(11)
+1100  C(12)
+1101  D(13)
+1110  E(14)
+1111  F(15)
+*/

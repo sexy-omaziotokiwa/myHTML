@@ -3,6 +3,8 @@ $(function() {
     ParseFEN(START_FEN);
     //ParseFEN("r1bqkb1r/pp1ppp1p/2n2np1/2p5/2B1P3/2NP1N2/PPP2PPP/R1BQK2R w KQkq - 0 1");
     PrintBoard();
+    GenerateMoves();
+    PrintMoveList();
 
 });
 
