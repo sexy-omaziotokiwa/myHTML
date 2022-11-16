@@ -5,7 +5,8 @@ $(function() {
     PrintBoard();
     GenerateMoves();
     PrintMoveList();
-
+    PrintPieceLists();
+    CheckBoard();
 });
 
 function InitFilesRanksBrd() {
@@ -61,11 +62,40 @@ function InitSq120ToSq64() {
     }
 }
 
+function InitBoardVars() {
+    var index = 0;
+    for (index = 0; index < MAXGAMEMOVES; ++index) {
+        GameBoard.history.push( {
+            move : NOMOVE,
+            castlePerm : 0,
+            enPas : 0,
+            fiftyMove : 0,
+            posKey : 0
+        } );
+    }
+    for (index = 0; index < PVENTRIES; ++index) {
+        GameBoard.PvTable.push({
+            move : NOMOVE,
+            posKey : 0
+        });
+    }
+}
+
+// function InitFilesRanks{
+//     var index = 0;
+//     var file = FILES.FILE_A;
+//     var rank = RANKS.RANK_1;
+//     var sq = SQUARES.A1
+// }
+
+
+
 function init() {
     console.log("init() called");
     InitFilesRanksBrd();
     InitHashKeys();
     InitSq120ToSq64();
+    //InitBoardVars();
 }
 
 
